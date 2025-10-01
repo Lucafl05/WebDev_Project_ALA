@@ -1,0 +1,41 @@
+.reviews {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.reviews > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+    border-radius: 8px;
+}
+
+.team {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.team > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.HowWeWork {
+  border: none;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.teamIMG{
+    border-radius: 8px;
+}
